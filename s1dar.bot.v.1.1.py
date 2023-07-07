@@ -3,8 +3,8 @@ import numpy as np
 import talib
 import time
 
-API_KEY = "Dd3Tj4IsX4kbRSdyA9hs7XoBzFPoBKwn8pCblecEydya45FjJSxXBRBoPT1aWNmP"
-API_SECRET = "0rODIxKWQPPJb06Ly8airNZKM8rkYriEoUKXPmRBEw6v9PS3N6EhNHXnFaLa3Kse"
+API_KEY = ""
+API_SECRET = ""
 
 def get_historical_candlesticks(symbol, interval, limit):
     url = f"https://api.binance.com/api/v3/klines?symbol={symbol}&interval={interval}&limit={limit}"
